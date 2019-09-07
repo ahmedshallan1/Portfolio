@@ -222,35 +222,72 @@ body {
     #logo{
       background: #666666;
     }
-    .body{
-      height: 300px;
-      width: 300px;
+    .main-section{
+      height: 100%;
+      width: 200%;
       margin: 0px;
+      background-color: blue;
+    }
+    .container{
+      background-color: red;
+    }
+    #main-container {
+      width: 100%;
+    }
+    p{
+      width: 80%;
+      height: 70%;
+      margin: 3px;
+    }
+    .auth-image{
+      width: 170px;
     }
       @media screen and (max-width: 768px) {
         #logo{
-          background: red;
-          color: goldenrod;
+          background: gold;
         }
-       .container{
-         background: #4aaaa5;
-       }
-       .body{
-        height: 200px;
-        width: 250px;
-        margin: 0px;
-      }
+        .main-section{
+          height: 50%;
+          width: 100%;
+          margin: 0px;
+          background-color: rgb(15, 95, 95);
+        }
+        .container{
+          background-color: black;
+        }
+        #main-container {
+          width: 90%;
+        }
+        p{
+          width: 70%;
+          height: 50%;
+          margin: 4px;
+        }
+        .auth-image{
+          width: 130px;
+        }
       
       @media screen and (max-width: 640px) {
         #logo{
-          background: #999;
-          color: yellowgreen;
+          background:green;
+        }
+        .main-section{
+          height: 30%;
+          width: 90%;
+          margin: 0px;
+          background-color: rgb(51, 36, 8);
         }
         .container{
-          background-color: #999;
+          background-color: rgb(34, 96, 133);
         }
-        .body{
-          height: 100px;
-          width: 50px;
-          margin: 0px;
+        #main-container {
+          width: 80%;
+        }
+        p{
+          width: 50%;
+          height: 30%;
+          margin: 6px;
+        }
+        .auth-image{
+          width: 100px;
         }
